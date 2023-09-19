@@ -1,17 +1,45 @@
-/* style.css */
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
 body {
-    background-color: lightgray;
+    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
 
+/* Style the main heading */
 h1 {
-    color: blue;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    padding: 10px; /* Add some padding */
 }
 
-.statement1 {
-    color: red; /* Change the color for the first statement */
+/* Style the subheadings (e.g., SUMMARY, EDUCATION, etc.) */
+h2 {
+    background-color: #2196F3; /* Blue background */
+    color: white; /* White text color */
+    padding: 5px 10px; /* Add padding (top and bottom), and more padding (left and right) */
 }
 
-.statement2 {
-    color: green; /* Change the color for the second statement */
+/* Style paragraphs with a slight border and some spacing */
+p {
+    border-left: 2px solid #4CAF50; /* Green left border */
+    padding-left: 10px; /* Add some padding to the left of the paragraph */
+    margin: 10px 0; /* Add margin (top and bottom) */
+    line-height: 1.5; /* Adjust line height for readability */
+}
+
+/* Style links */
+a {
+    color: #1976D2; /* Blue link color */
+    text-decoration: none; /* Remove underlines from links */
+    font-weight: bold; /* Make links bold */
+}
+
+/* Change link color on hover */
+a:hover {
+    color: #FF5722; /* Orange on hover */
 }
